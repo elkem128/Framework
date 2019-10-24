@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="pagetest.SingUpPageTest">
+        <methods>
+          <include name="userSingIn"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="clickOnSingInButton"/>
+        </methods>
+      </class> <!-- pagetest.SingUpPageTest -->
+      <class name="pagetest.HomePageTest">
+        <methods>
+          <include name="setRadiusDropDownTest"/>
+          <include name="selectCarRadiosDropDown"/>
+          <include name="selectCarMakeDropDown"/>
+          <include name="setUp"/>
+          <include name="allBodyStyleDropDownTest"/>
+          <include name="carQualityDropDownTest"/>
+          <include name="verifyCarsForSaleLinkTest"/>
+          <include name="selectCarModelDropDown"/>
+          <include name="clickSearchByBodyStyle"/>
+          <include name="selectCarPriceDropDown"/>
+          <include name="tearDown"/>
+          <include name="carPriceTest"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="selectCarTypeDropDown"/>
+          <include name="verifyLogInIconTest"/>
+          <include name="carsImageLogo"/>
+        </methods>
+      </class> <!-- pagetest.HomePageTest -->
+      <class name="pagetest.ResearchPageTest">
+        <methods>
+          <include name="selectAllMakesDropDownTest"/>
+          <include name="setUp"/>
+          <include name="VerifySelectAllModelsDropDownTest"/>
+          <include name="VerifySelectAllYearDropDownTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- pagetest.ResearchPageTest -->
+      <class name="pagetest.SellYourCarPageTest">
+        <methods>
+          <include name="clickCreateYourListingLinkTest"/>
+          <include name="tearDown"/>
+          <include name="clickGetAnEstimateLinkTest"/>
+          <include name="clickLearnMoreLinkTest"/>
+          <include name="clickStartShoppingLinkTest"/>
+          <include name="clickViewYourOffersLinkTest"/>
+          <include name="clickLearnHowToSellLinkTest"/>
+          <include name="setUp"/>
+          <include name="clickSellYourJunkCarLinkTest"/>
+          <include name="clickStartSellingLinkTest"/>
+        </methods>
+      </class> <!-- pagetest.SellYourCarPageTest -->
+      <class name="pagetest.ServiceAndRepairPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="clickSearchRecallLinkTest"/>
+          <include name="clickFindAServiceCenterButtonTest"/>
+          <include name="setUp"/>
+          <include name="clickServiceAndRepairAdviceLinkTest"/>
+          <include name="verifyFindAServiceCenterButtonTest"/>
+          <include name="verifySearchRecallLinkTest"/>
+          <include name="verifyLearnHowToLinkTest"/>
+          <include name="verifyServiceAndRepairAdviceLinkTest"/>
+          <include name="clickLearnHowToLinkTest"/>
+        </methods>
+      </class> <!-- pagetest.ServiceAndRepairPageTest -->
+      <class name="pagetest.VideosAndReviewsPageTest">
+        <methods>
+          <include name="clickSeeAllLinkTest"/>
+          <include name="tearDown"/>
+          <include name="searchItemAndClickEnterTest"/>
+          <include name="verifySendMeTheLatesButtonTest"/>
+          <include name="setUp"/>
+          <include name="verifyEmailInputFieldTest"/>
+        </methods>
+      </class> <!-- pagetest.VideosAndReviewsPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

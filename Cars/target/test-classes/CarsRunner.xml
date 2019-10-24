@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Amazon Automation Script " parallel="false">
+    <listeners>
+        <listener class-name="ExtendReportListener.ExtentReportListener"/>
+    </listeners>
+
+    <!--<parameter name="useCloudEnv" value="false"/>-->
+    <!--<parameter name="cloudEnvName" value="browserstack"/>-->
+    <!--<parameter name="os" value="OS X"/>-->
+    <!--<parameter name="os_version" value="Sierra"/>-->
+    <!--<parameter name="browserName" value="chrome"/>-->
+    <!--<parameter name="browserVersion" value="60.0"/>-->
+    <parameter name="url" value="https://www.cars.com/"/>
+    <test name = "Cars Application ">
+
+        <classes>
+            <!--<class name="TestHome"/>-->
+            <!--<class name="pagetest.LogInPageTest"/>-->
+            <!--<class name="pagetest.HomePageTest"/>-->
+            <!--<class name="pagetest.CarsForSalePageTest"/>-->
+            <!--<class name="pagetest.SellYourCarPageTest"/>-->
+            <class name="pagetest.SingUpPageTest"/>
+            <!--<class name="pagetest.ServiceAndRepairPageTest"/>-->
+            <!--<class name="pagetest.ResearchPageTest"/>-->
+            <!--<class name="pagetest.VideosAndReviewsPageTest"/>-->
+            <!--<class name="search.TestSecureMemberLogIn"/>-->
+        </classes>
+    </test>
+
+</suite>
